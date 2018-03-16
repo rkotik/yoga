@@ -1,4 +1,4 @@
 <?php
 // Es para empezar a crear el proyecto 15/03/2018
-phpinfo();
-
+echo "<h1>Bienvenidos</h1>";
+echo "Saludos, desde el index";
