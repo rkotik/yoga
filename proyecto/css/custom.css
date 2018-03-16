@@ -6,6 +6,7 @@ html {
 /* Navigation */
 .navbar {
     border-bottom: 3px solid rgb(3, 231, 3);
+    opacity: .7;
 }
 /* Home Section */
 #home-section {
