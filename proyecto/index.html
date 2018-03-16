@@ -23,12 +23,12 @@
             </button>
             <div class="collapse navbar-collapse" id="contentId">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item text-uppercase"><a href="index.html" class="nav-link">home</a></li>
-                    <li class="nav-item text-uppercase"><a href="acerca-section" class="nav-link">acerca de mi</a></li>
+                    <li class="nav-item text-uppercase"><a href="#home-section" class="nav-link">home</a></li>
+                    <li class="nav-item text-uppercase"><a href="#acerca-section" class="nav-link">acerca de mi</a></li>
                     <li class="nav-item text-uppercase"><a href="#" class="nav-link">clases</a></li>
                     <li class="nav-item text-uppercase"><a href="#" class="nav-link">horarios</a></li>
                     <li class="nav-item text-uppercase"><a href="#" class="nav-link">aranceles</a></li>
-                    <li class="nav-item text-uppercase"><a href="#" class="nav-link">contacto</a></li>
+                    <li class="nav-item text-uppercase"><a href="#contacto-section" class="nav-link">contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -42,8 +42,9 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <h1 class="display-4 text-white">
-                                Lorem ipsum dolor sit
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi minima numquam totam quis quisquam rem?
                             </h1>
+                            <button class="btn btn-outline-success btn-lg mt-3">Ver más</button>
                         </div>
                         <div class="col-lg-4"></div>
                     </div>
@@ -79,13 +80,79 @@
 							Actualmente trabajo como Profesora de Iyengar Yoga en su sala en Capital Federal y dicto un curso anual de Preparación para la Instrucción en el Método Iyengar.
 						</p>
 					</div>
-					<div class="col-lg-4">
-						<img src="img/flor.jpg" alt="">
+                    <div class="col-lg-4 ds-sm">
+						<img src="img/flor.jpg" class="responsive">
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+    </section>
+
+    <!-- CLASES -->
+    <section id="clases-section">
+
+    </section>
+
+    <!-- HORARIOS -->
+    <section id="horarios-section">
+
+    </section>
+
+    <!-- ARANCELES -->
+    <section id="aranceles-section"></section>
+    
+    </section>
+    
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contacto-section" class="bg-gris py-3 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <form>
+                        <h1 class="display-4">Contacto</h1>
+                        <p class="lead">Completá el siguiente formulario para ponerte en contacto con nosotros.</p>
+                        <div class="form-group">
+                            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre y apellido">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label for="hora_desde">Desde las</label>
+                                <input type="time" name="hora_desde" id="hora_desde" class="form-control" placeholder="Hora desde">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="hora_hasta">Hasta las</label>
+                                <input type="time" name="hora_hasta" id="hora_hasta" class="form-control" placeholder="Hora hasta">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="comentarios" class="form-control" rows="10" placeholder="Dejanos tus comentarios o consultas..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-outline-primary btn-block">
+                                Enviar formulario
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-7 map pt-2" id="map" style="position: relative; overflow:hidden;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.031792234684!2d-58.442449975075064!3d-34.60335757501294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0d19c4d9e9%3A0x5f1d6eeefe4ca2b2!2sAntezana+21%2C+C1414EEA+CABA!5e0!3m2!1ses-419!2sar!4v1521241262568" width="600" height="700" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-lg-12">&copy; Copyright 2018 - Todos los derechos reservados YOGA - Antezana 21, Ciudad Autónoma de Buenos Aires</div>
+            </div>
+        </div>
+    </footer>
 
 
 

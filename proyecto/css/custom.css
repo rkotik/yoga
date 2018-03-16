@@ -43,4 +43,13 @@ li.nav-item.text-uppercase:hover {
     .home-inner {
         padding-top: 100px;
     }
+    .ds-sm {
+        display: none;
+    }
+}
+
+/* Footer Contacto */
+.bg-gris {
+    background-color: #333;
+    color: white;
 }
