@@ -5,8 +5,20 @@ html {
 }
 /* Navigation */
 .navbar {
-    border-bottom: 3px solid rgb(3, 231, 3);
-    opacity: .7;
+	border-bottom: 3px solid rgb(3, 231, 3);
+	background-color: rgba(0,0,0,.1) !important;
+    /* opacity: .7; */
+}
+.navbar-white, .navbar-nav .nav-link {
+	color: rgba(255,255,255,1) !important;
+}
+li.nav-item.text-uppercase {
+	background-color: none;
+	transition: 0.3s all ease-in;
+}
+li.nav-item.text-uppercase:hover {
+	background-color: rgba(3,231,3,1) !important;
+	border-radius: 3px;
 }
 /* Home Section */
 #home-section {
