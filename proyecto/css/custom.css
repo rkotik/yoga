@@ -20,6 +20,9 @@ li.nav-item.text-uppercase:hover {
 	background-color: rgba(3,231,3,1) !important;
 	border-radius: 3px;
 }
+.separador {
+    margin-bottom: 0px;
+}
 /* Home Section */
 #home-section {
     background: url('../img/yoga.png') no-repeat;
@@ -48,8 +51,16 @@ li.nav-item.text-uppercase:hover {
     }
 }
 
-/* Footer Contacto */
+/* Acerca Section */
+#acerca-section {
+    padding-top: 25px;
+}
+
+/* Footer Contacto Section*/
 .bg-gris {
     background-color: #333;
     color: white;
+}
+#contacto-section {
+    padding-top: 75px;
 }
